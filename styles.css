@@ -123,8 +123,7 @@ footer {
     background-color: rgb(44, 103, 245);
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-content: flex-start;
+    justify-content: space-around;
     align-items: center;
     color: white;
 }
@@ -140,9 +139,12 @@ footer p {
 }
 
 footer button {
-    background-color: rgb(182, 182, 239);
-    border: 1px solid black;
+    
+    background-color: rgb(44, 103, 245);
+    border: 1px solid white;
     width: 10em;
+    height: 3em;
+    color: white;
 }
 
 
