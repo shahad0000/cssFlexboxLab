@@ -139,5 +139,11 @@ footer p {
     font-size: 1.4em;
 }
 
+footer button {
+    background-color: rgb(182, 182, 239);
+    border: 1px solid black;
+    width: 10em;
+}
+
 
 
