@@ -83,6 +83,7 @@
     background-color: rgb(44, 103, 245);
     border: 1px solid blue;
     border-radius: 10px;
+    color: white;
 }
 
 .page-content {
@@ -90,11 +91,12 @@
     height: 100vh;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     flex-wrap: wrap;
 }
 .card {
     width: 26%;
-    height: 50%;
+    height: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -106,13 +108,29 @@
 img {
     width: 100%;
     height: auto;
-    background-color: aqua;
-    border: 1px solid black;
 }
 
 .tags > ul {
     list-style-type: none;
     display: flex;
     gap: 6%;
+}
+
+footer {
+    width: 100vw;
+    height: 70vh;
+    border-radius: 10px;
+    background-color: rgb(44, 103, 245);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
+    color: white;
+}
+
+footer p {
+    font-size: 3em;
+    font-family: sans-serif;
 }
 
