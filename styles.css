@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#navbar {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.logo {
+    width: 20vw;
+    text-align: center;;
+}
+
+#navbar ul {
+    width: 80vw;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero {
+    width: 100vw;
+    height: 70vh;
+    background-color: rgb(44, 103, 245);
+    color: white;
+    font-family: sans-serif;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 80%;
+    align-items: center;
+}
+
+.hero-title {
+    width: 50vw;
+    height: 40%;
+    font-size: 3em;
+}
+
+.hero-left {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.hero-right {
+    width: 40%;
+    height: 80%;
+    font-size: 1.4em;
+    display: flex;
+    align-items: center;
+}
+
+.email-form {
+    background-color: white;
+    width: 100%;
+    height: 17%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+  
+}
+#email {
+    width: 80%;
+    height: 90%;
+    border: 1px solid blue;
+    border-radius: 10px;
+
+}
+.email-btn {
+    width: 18%;
+    height: 90%;
+    background-color: rgb(44, 103, 245);
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+.page-content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card {
+    width: 26%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    border: 1px solid black;
+    font-size: 0.5em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.tags > ul {
+    list-style-type: none;
+    display: flex;
+    gap: 6%;
+}
+
