@@ -129,8 +129,15 @@ footer {
     color: white;
 }
 
-footer p {
+footer p:first-child {
     font-size: 3em;
     font-family: sans-serif;
 }
+
+footer p {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+
 
